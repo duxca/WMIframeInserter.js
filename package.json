@@ -1,9 +1,9 @@
 {
   "name":           "legokichi.iframeinserter.js",
-  "version":        "0.0.35",
-  "description":    "Module template for Mobile Web Application.",
+  "version":        "0.0.36",
+  "description":    "iframe content inserter.",
   "url":            "https://github.com/legokichi/IframeInserter.js",
-  "keywords":       ["WebModule", "Unstable"],
+  "keywords":       ["legokichi", "WebModule", "Unstable"],
   "repository": {
     "type":         "git",
     "url":          "https://github.com/legokichi/IframeInserter.js.git"
