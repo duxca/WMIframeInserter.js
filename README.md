@@ -6,7 +6,7 @@ iframe src inserter.
 ## Document
 
 - [IframeInserter.js wiki](https://github.com/legokichi/IframeInserter.js/wiki/IframeInserter)
-- [Development](https://github.com/legokichi/WebModule/wiki/Development)
+- [Development](https://github.com/uupaa/WebModule/wiki/Development)
 - [WebModule](https://github.com/legokichi/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))
 
 
