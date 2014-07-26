@@ -2,7 +2,7 @@
 
 [![npm](https://nodei.co/npm/legokichi.iframeinserter.js.png?downloads=true&stars=true)](https://nodei.co/npm/legokichi.iframeinserter.js/)
 
-IframeInserter.js description.
+iframe src inserter.
 
 ## Document
 
@@ -18,22 +18,7 @@ IframeInserter.js description.
 ```js
 <script src="lib/IframeInserter.js">
 <script>
-console.log( IframeInserter() );
+var iframe = document.getElementById("frame");
+new IframeInserter(iframe).write(code);
 </script>
-```
-
-### WebWorkers
-
-```js
-importScripts("lib/IframeInserter.js");
-
-console.log( IframeInserter() );
-```
-
-### Node.js
-
-```js
-var IframeInserter = require("lib/IframeInserter.js");
-
-console.log( IframeInserter() );
 ```
