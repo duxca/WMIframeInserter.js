@@ -1,6 +1,6 @@
 {
   "name":           "legokichi.iframeinserter.js",
-  "version":        "0.0.37",
+  "version":        "0.0.38",
   "description":    "iframe content inserter.",
   "url":            "https://github.com/legokichi/IframeInserter.js",
   "keywords":       ["legokichi", "WebModule", "Unstable"],
