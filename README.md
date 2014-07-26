@@ -1,4 +1,4 @@
-# IframeInserter.js [![Build Status](https://api.travis-ci.org/legokichi/IframeInserter.png)](http://travis-ci.org/legokichi/IframeInserter.js)
+# IframeInserter.js [![Build Status](https://api.travis-ci.org/legokichi/IframeInserter.js.png)](http://travis-ci.org/legokichi/IframeInserter.js)
 [![npm](https://nodei.co/npm/legokichi.iframeinserter.js.png?downloads=true&stars=true)](https://nodei.co/npm/legokichi.iframeinserter.js/)
 
 iframe src inserter.
