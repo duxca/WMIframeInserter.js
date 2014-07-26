@@ -1,6 +1,6 @@
-# IframeInserter.js [![Build Status](https://travis-ci.org/uupaa/IframeInserter.js.png)](http://travis-ci.org/uupaa/IframeInserter.js)
+# IframeInserter.js [![Build Status](https://travis-ci.org/legokichi/IframeInserter.js.png)](http://travis-ci.org/legokichi/IframeInserter.js)
 
-[![npm](https://nodei.co/npm/uupaa.iframeinserter.js.png?downloads=true&stars=true)](https://nodei.co/npm/uupaa.iframeinserter.js/)
+[![npm](https://nodei.co/npm/legokichi.iframeinserter.js.png?downloads=true&stars=true)](https://nodei.co/npm/legokichi.iframeinserter.js/)
 
 IframeInserter.js description.
 
@@ -37,4 +37,3 @@ var IframeInserter = require("lib/IframeInserter.js");
 
 console.log( IframeInserter() );
 ```
-
