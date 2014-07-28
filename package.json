@@ -1,6 +1,6 @@
 {
   "name":           "legokichi.iframeinserter.js",
-  "version":        "0.0.38",
+  "version":        "0.0.39",
   "description":    "iframe content inserter.",
   "url":            "https://github.com/legokichi/IframeInserter.js",
   "keywords":       ["legokichi", "WebModule", "Unstable"],
@@ -27,7 +27,10 @@
   "x-build": {
     "source":       ["lib/IframeInserter.js"],
     "output":       "release/IframeInserter.min.js",
-    "target":       ["all"],
+    "target":       [
+      "Browser",
+      "Worker"
+    ],
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],

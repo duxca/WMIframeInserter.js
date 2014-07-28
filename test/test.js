@@ -9,8 +9,8 @@ return new Test("IframeInserter", {
         browser:    true,
         worker:     false,
         node:       false,
-        button:     false,
-        both:       false, // test the primary module and secondary module
+        button:     true,
+        both:       true, // test the primary module and secondary module
     }).add([
         testIframeInserter_write,
         testIframeInserter_blobURL,
