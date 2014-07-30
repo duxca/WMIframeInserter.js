@@ -1,6 +1,6 @@
 {
   "name":           "legokichi.iframeinserter.js",
-  "version":        "0.1.0",
+  "version":        "0.1.1",
   "description":    "iframe content inserter.",
   "url":            "https://github.com/legokichi/IframeInserter.js",
   "keywords":       ["legokichi", "WebModule", "Unstable"],
@@ -31,10 +31,11 @@
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
-      "release":    []
+      "release":    ["legokichi.dataurischeme.js"]
     }
   },
   "dependencies": {
+    "legokichi.dataurischeme.js": ""
   },
   "devDependencies": {
     "uupaa.nodemodule.js": "",

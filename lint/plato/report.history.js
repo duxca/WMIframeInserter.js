@@ -130,5 +130,49 @@ __history = [
       "sloc": 102,
       "maintainability": "73.72"
     }
+  },
+  {
+    "date": "Wed, 30 Jul 2014 06:06:05 GMT",
+    "total": {
+      "sloc": 95,
+      "maintainability": 72.97996878114088
+    },
+    "average": {
+      "sloc": 95,
+      "maintainability": "72.98"
+    }
+  },
+  {
+    "date": "Wed, 30 Jul 2014 06:06:32 GMT",
+    "total": {
+      "sloc": 95,
+      "maintainability": 72.9702760100879
+    },
+    "average": {
+      "sloc": 95,
+      "maintainability": "72.97"
+    }
+  },
+  {
+    "date": "Wed, 30 Jul 2014 06:19:28 GMT",
+    "total": {
+      "sloc": 96,
+      "maintainability": 72.66865155866076
+    },
+    "average": {
+      "sloc": 96,
+      "maintainability": "72.67"
+    }
+  },
+  {
+    "date": "Wed, 30 Jul 2014 06:23:15 GMT",
+    "total": {
+      "sloc": 96,
+      "maintainability": 72.66865155866076
+    },
+    "average": {
+      "sloc": 96,
+      "maintainability": "72.67"
+    }
   }
 ]

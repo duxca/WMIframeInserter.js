@@ -30,12 +30,11 @@ function testIframeInserter_write(test, pass, miss) {
     new IframeInserter(iframe).write(code);
     window.addEventListener("message", function(ev){
         var result = JSON.parse(ev.data);
-        console.log(ev.data);
         if (result.name === "write") {
             if (result.pass) {
-                test.done(pass());
+                test.done(pass(ev.data));
             } else {
-                test.done(miss());
+                test.done(miss(ev.data));
             }
         }
     });
@@ -53,12 +52,11 @@ function testIframeInserter_blobURL(test, pass, miss) {
     new IframeInserter(iframe).blobURL(code);
     window.addEventListener("message", function(ev){
         var result = JSON.parse(ev.data);
-        console.log(ev.data);
         if (result.name === "blobURL") {
             if (result.pass) {
-                test.done(pass());
+                test.done(pass(ev.data));
             } else {
-                test.done(miss());
+                test.done(miss(ev.data));
             }
         }
     });
@@ -76,12 +74,11 @@ function testIframeInserter_srcdoc(test, pass, miss) {
     new IframeInserter(iframe).srcdoc(code);
     window.addEventListener("message", function(ev){
         var result = JSON.parse(ev.data);
-        console.log(ev.data);
         if (result.name === "srcdoc") {
             if (result.pass) {
-                test.done(pass());
+                test.done(pass(ev.data));
             } else {
-                test.done(miss());
+                test.done(miss(ev.data));
             }
         }
     });
@@ -99,12 +96,11 @@ function testIframeInserter_dataURI(test, pass, miss) {
     new IframeInserter(iframe).dataURI(code);
     window.addEventListener("message", function(ev){
         var result = JSON.parse(ev.data);
-        console.log(ev.data);
         if (result.name === "dataURI") {
             if (result.pass) {
-                test.done(pass());
+                test.done(pass(ev.data));
             } else {
-                test.done(miss());
+                test.done(miss(ev.data));
             }
         }
     });
