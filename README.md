@@ -16,7 +16,7 @@ iframe content inserter.
 ### Browser
 
 ```js
-<script src="lib/IframeInserter.js">
+<script src="lib/IframeInserter.js"></script>
 <script>
 var iframe = document.getElementById("iframe");
 new IframeInserter(iframe).write(code);
