@@ -1,12 +1,12 @@
 {
-  "name":           "legokichi.iframeinserter.js",
+  "name":           "legokichi.wmiframeinserter.js",
   "version":        "0.1.2",
   "description":    "iframe content inserter.",
-  "url":            "https://github.com/legokichi/IframeInserter.js",
+  "url":            "https://github.com/legokichi/WMIframeInserter.js",
   "keywords":       ["legokichi", "WebModule", "Unstable"],
   "repository": {
     "type":         "git",
-    "url":          "https://github.com/legokichi/IframeInserter.js.git"
+    "url":          "https://github.com/legokichi/WMIframeInserter.js.git"
   },
   "scripts": {
     "watch":        "node node_modules/uupaa.watch.js --verbose --action build",
@@ -26,17 +26,17 @@
     "lint":         "node node_modules/uupaa.plato.js; open lint/plato/index.html"
   },
   "x-build": {
-    "source":       ["lib/IframeInserter.js"],
-    "output":       "release/IframeInserter.min.js",
+    "source":       ["lib/WMIframeInserter.js"],
+    "output":       "release/WMIframeInserter.min.js",
     "target":       ["Browser", "Worker"],
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
-      "release":    ["legokichi.dataurischeme.js"]
+      "release":    ["legokichi.wmdataurischeme.js"]
     }
   },
   "dependencies": {
-    "legokichi.dataurischeme.js": ""
+    "legokichi.wmdataurischeme.js": ""
   },
   "devDependencies": {
     "uupaa.nodemodule.js": "",

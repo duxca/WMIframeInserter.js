@@ -3,7 +3,7 @@ var ModuleTestIframeInserter = (function(global) {
 var _runOnNode = "process" in global;
 var _runOnWorker = "WorkerLocation" in global;
 var _runOnBrowser = "document" in global;
-
+var IframeInserter = WMIframeInserter;
 return new Test("IframeInserter", {
         disable:    false,
         browser:    true,
