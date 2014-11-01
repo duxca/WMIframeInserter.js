@@ -1,3 +1,3 @@
-//module.exports = require("./bin/IframeInserter");
-module.exports = require("./lib/IframeInserter");
+//module.exports = require("./bin/WMIframeInserter");
+module.exports = require("./lib/WMIframeInserter");
 

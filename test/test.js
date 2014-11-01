@@ -106,4 +106,26 @@ function testIframeInserter_dataURI(test, pass, miss) {
     });
 }
 
+function testIframeInserter_dataURI(test, pass, miss) {
+    var code = (function () {/*
+    <script>(function(){
+    var result = {name:"dataURI", pass:true};
+    (parent.postMessage ? parent : (parent.document.postMessage ? parent.document : undefined)).postMessage(JSON.stringify(result), "*");
+    }());</script>
+    */}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
+    var iframe = document.createElement("iframe");
+    document.body.appendChild(iframe);
+    new IframeInserter(iframe).message(code ,"../lib/iframe.html");
+    window.addEventListener("message", function(ev){
+        var result = JSON.parse(ev.data);
+        if (result.name === "dataURI") {
+            if (result.pass) {
+                test.done(pass(ev.data));
+            } else {
+                test.done(miss(ev.data));
+            }
+        }
+    });
+}
+
 })((this || 0).self || global);

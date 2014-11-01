@@ -15,49 +15,49 @@
           "line": 1,
           "complexity": {
             "sloc": {
-              "physical": 95,
-              "logical": 38
+              "physical": 96,
+              "logical": 45
             },
-            "cyclomatic": 8,
+            "cyclomatic": 9,
             "halstead": {
               "operators": {
                 "distinct": 15,
-                "total": 90,
+                "total": 109,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
               "operands": {
-                "distinct": 52,
-                "total": 130,
+                "distinct": 62,
+                "total": 158,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
-              "length": 220,
-              "vocabulary": 67,
-              "difficulty": 18.75,
-              "volume": 1334.5396219007098,
-              "effort": 25022.61791063831,
-              "bugs": 0.44484654063356993,
-              "time": 1390.1454394799061
+              "length": 267,
+              "vocabulary": 77,
+              "difficulty": 19.112903225806452,
+              "volume": 1673.2320063655388,
+              "effort": 31980.321411986508,
+              "bugs": 0.5577440021218463,
+              "time": 1776.6845228881393
             },
-            "params": 10
+            "params": 12
           }
         },
         "module": "lib/WMIframeInserter.js",
-        "maintainability": 72.9702760100879
+        "maintainability": 73.42467653219559
       }
     }
   ],
   "summary": {
     "total": {
-      "sloc": 95,
-      "maintainability": 72.9702760100879
+      "sloc": 96,
+      "maintainability": 73.42467653219559
     },
     "average": {
-      "sloc": 95,
-      "maintainability": "72.97"
+      "sloc": 96,
+      "maintainability": "73.42"
     }
   }
 }
