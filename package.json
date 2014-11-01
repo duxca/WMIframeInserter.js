@@ -35,11 +35,11 @@
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
-      "release":    ["legokichi.wmdataurischeme.js"]
+      "release":    ["duxca.wmdataurischeme.js"]
     }
   },
   "dependencies": {
-    "legokichi.wmdataurischeme.js": ""
+    "duxca.wmdataurischeme.js": ""
   },
   "devDependencies": {
     "uupaa.nodemodule.js": "",
