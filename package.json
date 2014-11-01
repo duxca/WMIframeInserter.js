@@ -1,6 +1,6 @@
 {
   "name":           "duxca.wmiframeinserter.js",
-  "version":        "0.3.1",
+  "version":        "0.3.2",
   "description":    "iframe content inserter.",
   "url":            "https://github.com/duxca/WMIframeInserter.js",
   "keywords":       ["duxca", "WebModule", "Unstable"],
